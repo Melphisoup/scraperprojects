@@ -19,4 +19,4 @@ filename = "data.csv"
 file = open(filename, 'w', newline='')
 with file:
     write = csv.writer(file)
-    write.writerows(country.text)
+    write.writerows(country)
